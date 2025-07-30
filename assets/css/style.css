@@ -186,7 +186,7 @@ header .line {
 
 .area4 {
   display: grid;
-  grid-template-columns: 550px 1fr;
+  grid-template-columns: 1fr 2fr;
   background-color: #e8e9ee;
 }
 .area4--content {
@@ -198,7 +198,7 @@ header .line {
 }
 .area4--img {
   background-image: url("../images/bg3.jpg");
-  background-position: right;
+  background-position: left;
 }
 
 .area5 {
@@ -216,4 +216,32 @@ footer {
 }
 footer a {
   color: #a8f8dd;
+}
+
+@media (min-width: 769px) and (max-width: 1140px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 246px) and (max-width: 768px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .area1 {
+    grid-template-columns: 3fr 2fr;
+  }
+  .area2 {
+    grid-template-columns: 2fr 3fr;
+  }
+  .area3 {
+    grid-template-columns: 3fr 2fr;
+  }
+  .area4 {
+    grid-template-columns: 3fr 2fr;
+  }
+}
+@media (max-width: 425px) {
+  
 }
