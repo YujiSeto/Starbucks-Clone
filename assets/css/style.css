@@ -20,6 +20,7 @@ h1 {
   line-height: 100px;
   margin: 0;
   margin-bottom: 30px;
+  text-transform: capitalize;
 }
 h2 {
   font-family: "Oswald", sans-serif;
@@ -28,6 +29,7 @@ h2 {
   line-height: 45px;
   margin: 0;
   margin: 20px 0px;
+  text-transform: capitalize;
 }
 .button {
   display: inline-block;
@@ -180,4 +182,21 @@ header .line {
   background-image: url("../images/f5.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.area4 {
+  display: grid;
+  grid-template-columns: 550px 1fr;
+  background-color: #e8e9ee;
+}
+.area4--content {
+  padding: 150px 80px;
+}
+.area4--text {
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+.area4--img {
+  background-image: url("../images/bg3.jpg");
+  background-position: right;
 }
